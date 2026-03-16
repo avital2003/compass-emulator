@@ -7,7 +7,7 @@ export function useCompassData() {
   useEffect(() => {
     if (useMockData) {
       const interval = setInterval(() => {
-        setHeading((prev) => (prev + 1) % MAX_HEADING_DEGREES);
+        setHeading((prev) => (prev + 1));
       }, UPDATE_INTERVAL_MS);
 
       return () => clearInterval(interval);
