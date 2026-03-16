@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useMockData, UPDATE_INTERVAL_MS, MAX_HEADING_DEGREES } from '../utils/constants';
+import { useMockData, UPDATE_INTERVAL_MS } from '../utils/constants';
 
 export function useCompassData() {
   const [heading, setHeading] = useState<number>(0);
