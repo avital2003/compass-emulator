@@ -1,5 +1,5 @@
 export const compassCenter = 150;
-export const MAX_HEADING_DEGREES = 359;
+export const MAX_HEADING_DEGREES = 360;
 
 export const compassRadii = {
   bezel: 145,
