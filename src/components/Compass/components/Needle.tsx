@@ -13,7 +13,7 @@ export const Needle: React.FC<NeedleProps> = ({ heading }) => {
       style={{
         transform: `rotate(${heading}deg)`,
         transformOrigin: '50% 50%',
-        transition: 'transform 0.1s linear'
+        transition: 'transform 1.2s cubic-bezier(0.25, 1, 0.5, 1)' 
       }}
     >
       <rect

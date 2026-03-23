@@ -18,4 +18,5 @@ export const tickConfig = {
 };
 
 export const UPDATE_INTERVAL_MS = 100;
-export const useMockData = true;
+export const useMockData = false;
+export const COMPASS_ROTATION_SPEED_DEG_PER_SEC = 90;

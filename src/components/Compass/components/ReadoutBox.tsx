@@ -6,7 +6,7 @@ interface ReadoutBoxProps {
 }
 
 export const ReadoutBox: React.FC<ReadoutBoxProps> = ({ heading }) => {
-  const displayHeading = (Math.floor(heading) % 360).toString().padStart(3, '0');
+  const displayHeading = Math.floor(((heading % 360) + 360) % 360).toString().padStart(3, '0');
 
   return (
     <div className="compass-readout">
