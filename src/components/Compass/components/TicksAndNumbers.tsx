@@ -1,9 +1,9 @@
-import React from 'react';
-import { generateTicks } from '../utils/mathUtils';
-import { compassCenter } from '../utils/constants';
-import '../styles/Compass.css';
+import React from "react";
+import { generateTicks } from "../utils/mathUtils";
+import { compassCenter } from "../utils/constants";
+import "../styles/Compass.css";
 
-export const TicksAndNumbers: React.FC = () => {
+export const TicksAndNumbers: React.FC = React.memo(() => {
   const ticks = generateTicks();
 
   return (
@@ -33,4 +33,4 @@ export const TicksAndNumbers: React.FC = () => {
       ))}
     </>
   );
-};
+});
