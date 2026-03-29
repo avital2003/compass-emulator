@@ -1,8 +1,8 @@
-import React from 'react';
-import { compassCenter, compassRadii } from '../utils/constants';
-import '../styles/Compass.css';
+import React from "react";
+import { compassCenter, compassRadii } from "../utils/constants";
+import "../styles/Compass.css";
 
-export const DialBackground: React.FC = () => {
+export const DialBackground: React.FC = React.memo(() => {
   return (
     <>
       <circle
@@ -40,4 +40,4 @@ export const DialBackground: React.FC = () => {
       />
     </>
   );
-};
+});

@@ -1,5 +1,5 @@
 :root {
-  --compass-bg: #0B1D3A;
+  --compass-bg: #0b1d3a;
   --compass-bezel-stroke: black;
   --compass-white-ring: #ffffff;
   --compass-black-core: #111111;
@@ -10,12 +10,7 @@
   --compass-readout-bg: #555555;
   --compass-readout-text: #cc0000;
   --compass-readout-border: #333333;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--compass-bg);
+  --compass-font: Arial, Helvetica, sans-serif;
 }
 
 .compass-wrapper {
@@ -50,7 +45,6 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  /* Rotation happens dynamically inline */
 }
 
 .compass-bezel {
@@ -75,7 +69,7 @@ body {
   fill: var(--compass-tick-text);
   font-size: 9px;
   font-weight: lighter;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--compass-font);
   text-anchor: middle;
   alignment-baseline: middle;
 }
@@ -86,12 +80,7 @@ body {
 }
 
 .compass-static-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+  transform-origin: 50% 50%;
 }
 
 .compass-needle {
@@ -105,12 +94,12 @@ body {
   transform: translate(-50%, -50%);
   background-color: var(--compass-readout-bg);
   color: var(--compass-readout-text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--compass-font);
   font-weight: bold;
   font-size: 5vmin;
   padding: 1vmin 2.5vmin;
   border-radius: 1vmin;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   border: 2px solid var(--compass-readout-border);
   z-index: 10;
 }

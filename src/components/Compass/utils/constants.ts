@@ -1,5 +1,7 @@
 export const compassCenter = 150;
-export const MAX_HEADING_DEGREES = 360;
+export const FULL_CIRCLE_DEG = 360;
+export const HALF_CIRCLE_DEG = 180;
+export const MATH_OFFSET_DEG = 540;
 
 export const compassRadii = {
   bezel: 145,
@@ -18,4 +20,8 @@ export const tickConfig = {
 };
 
 export const UPDATE_INTERVAL_MS = 100;
-export const useMockData = true;
+export const useMockData = false;
+export const COMPASS_ROTATION_SPEED_DEG_PER_SEC = 90;
+export const COMPASS_TRANSITION_DURATION_SEC = 2.5;
+export const WS_RECONNECT_DELAY_MS = 3000;
+export const ENABLE_TELEMETRY = false;
