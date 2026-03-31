@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "R/Ho6d2rZoA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\meamnim\\Documents\\compass-emulator\\server\\server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\meamnim\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.25\\microsoft.aspnetcore.spaproxy.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
