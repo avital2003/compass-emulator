@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meamnim\\Documents\\compass-emulator\\server\\server.csproj",
+      "projectUniqueName": "C:\\Users\\meamnim\\Desktop\\Avital\\compass-emulator\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "C:\\Users\\meamnim\\Documents\\compass-emulator\\server\\server.csproj",
+      "projectPath": "C:\\Users\\meamnim\\Desktop\\Avital\\compass-emulator\\server\\server.csproj",
       "packagesPath": "C:\\Users\\meamnim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meamnim\\Documents\\compass-emulator\\server\\obj\\",
+      "outputPath": "C:\\Users\\meamnim\\Desktop\\Avital\\compass-emulator\\server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

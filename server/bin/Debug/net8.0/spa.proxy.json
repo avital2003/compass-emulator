@@ -3,7 +3,7 @@
 "ServerUrl": "http://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\meamnim\\Documents\\compass-emulator\\server\\..\\client\\",
+"WorkingDirectory": "C:\\Users\\meamnim\\Desktop\\Avital\\compass-emulator\\server\\..\\client\\",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
